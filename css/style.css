@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'lucida_sans_unicoderegular';
+    src: url('../fonts/ufonts.com_lucida-sans-unicode-webfont.eot');
+    src: url('../fonts/ufonts.com_lucida-sans-unicode-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ufonts.com_lucida-sans-unicode-webfont.woff2') format('woff2'),
+    url('../fonts/ufonts.com_lucida-sans-unicode-webfont.woff') format('woff'),
+    url('../fonts/ufonts.com_lucida-sans-unicode-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+
+}
+
+.page {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 300px;
+    background: lightblue;
+}
+
+.wrapper {
+    max-width: 909px;
+    margin: 0 auto;
+}
+
+.head-header {
+    background: lightcyan;
+    padding: 17px 0 10px 0;
+}
+
+.phone {
+    background: inherit;
+    padding: 5px 0 0 7px;
+    position: relative;
+    float: left;
+    font-family: Arial, sans-serif;
+    color: #5e696d;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 21px;
+    text-align: left;
+    vertical-align: middle;
+    margin-right: 17px;
+}
+
+.phone-logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.phone span {
+    float: right;
+    display: block;
+    margin-left: 4px;
+
+}
+
+.registration {
+    position: relative;
+    float: left;
+    width: 470px;
+    height: 27px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    color: #97a2a6;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    background: -webkit-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -moz-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -o-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: -ms-linear-gradient(-90deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    background: linear-gradient(180deg, #206988 0%, #114165 59%, #0d3458 84%, #0c3256 100%);
+    box-shadow: 1px 3px 3px 0 rgba(150, 150, 150, 0.75);
+    margin-right: 17px;
+    padding-left: 26px;
+    letter-spacing: 0;
+    border-radius: 4px;
+}
+
+.registration-man {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+}
+
+.registration input {
+    width: 113px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.registration-line {
+    display: inline-block;
+    border-right: 1px solid white;
+    height: 8px;
+    margin: 2px 3px 0;
+
+}
+
+.registration a {
+    text-decoration: none;
+    color: white;
+}
+
+.registration-forget {
+    margin-left: 18px;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    color: #bfbfbf;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: underline;
+    text-align: left;
+
+}
+
+.navi {
+    display: inline-block;
+    position: relative;
+    padding-top: 2px;
+}
+
+.navi-house {
+    position: absolute;
+    top: 7px;
+    left: 11px;
+}
+
+.navi-navi {
+    position: absolute;
+    top: 8px;
+    left: 31px;
+}
+
+.navi-mail {
+    position: absolute;
+    top: 9px;
+    left: 54px;
+}
